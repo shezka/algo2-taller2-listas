@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jscherman/Desktop/taller2/Dicc.h
+Lista.h
+/home/jscherman/Desktop/taller2/Lista.h
+ostream
+-
+
+/home/jscherman/Desktop/taller2/lista.h
+string
+-
+ostream
+-
+
+/home/jscherman/Desktop/taller2/test_dicc.cpp
+Dicc.h
+/home/jscherman/Desktop/taller2/Dicc.h
+iostream
+-
+string
+-
+gtest/gtest.h
+-
+
+/home/jscherman/Desktop/taller2/tests.cpp
+iostream
+-
+gtest/gtest.h
+-
+lista.h
+/home/jscherman/Desktop/taller2/lista.h
+

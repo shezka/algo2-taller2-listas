@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jscherman/Desktop/taller2/lista.h
+string
+-
+sstream
+-
+ostream
+-
+
+/home/jscherman/Desktop/taller2/tests.cpp
+iostream
+-
+gtest/gtest.h
+-
+lista.h
+/home/jscherman/Desktop/taller2/lista.h
+
